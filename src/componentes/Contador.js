@@ -4,7 +4,7 @@ import { View, Text, TouchableHighlight } from 'react-native'
 export default class Contador extends Component {
     
     state = {
-        numero: 0
+        numero: 10
     }
 
     maisUm = () => {
