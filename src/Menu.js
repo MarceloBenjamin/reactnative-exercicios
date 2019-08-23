@@ -8,8 +8,12 @@ import Contador from './componentes/Contador';
 import Plataformas from './componentes/Plataformas';
 import ValidarProps from './componentes/ValidarProps';
 import Evento from './componentes/Evento';
+import { Avo } from './componentes/ComunicacaoDireta';
 
 const drawerNavigator = createDrawerNavigator({
+    Avo: {
+        screen: () => <Avo nome='Joao' sobrenome='Silva' />
+    },
     Evento: {
         screen: Evento
     },
